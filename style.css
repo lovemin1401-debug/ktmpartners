@@ -119,7 +119,19 @@ footer {
     }
 }
 .logo {
-    max-width: 260px;
+    max-width: 420px;
+    width: 100%;
     height: auto;
-    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: white;
+}
+
+.description {
+    font-size: 18px;
+    color: #d9e2ec;
 }
