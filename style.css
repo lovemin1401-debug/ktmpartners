@@ -117,11 +117,6 @@ footer {
         padding: 40px 18px;
     }
 }
-.logo {
-    max-width: 420px;
-    width: 100%;
-    height: auto;
-}
 
 .subtitle {
     font-size: 24px;
@@ -133,13 +128,4 @@ footer {
 .description {
     font-size: 18px;
     color: #d9e2ec;
-}
-.nav-logo {
-    height: 55px;
-    width: auto;
-    background: white;
-    padding: 6px 12px;
-    border-radius: 6px;
-    vertical-align: middle;
-    margin-right: 40px;
 }
