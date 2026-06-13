@@ -118,3 +118,8 @@ footer {
         padding: 40px 18px;
     }
 }
+.logo {
+    max-width: 260px;
+    height: auto;
+    margin-bottom: 20px;
+}
