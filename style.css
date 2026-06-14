@@ -217,3 +217,9 @@ section {
     display: flex;
     align-items: center;
 }
+.product-image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 30px auto;
+}
