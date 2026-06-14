@@ -44,10 +44,8 @@ header p {
 }
 
 header img {
-    width: 100%;
-    max-width: 1100px;
-    border-radius: 14px;
-    margin-top: 25px;
+    max-width: 100%;
+    height: auto;
 }
 
 section {
@@ -257,16 +255,15 @@ section {
     color: white;
     font-size: 46px;
     margin-bottom: 20px;
-    .product-photo {
+}
+
+.product-photo {
     width: 100%;
     max-width: 520px;
     height: auto;
     display: block;
     margin: 0 auto 40px auto;
-    object-fit: contain;
 }
-}
-
 .main-hero p {
     font-size: 21px;
     margin-bottom: 30px;
