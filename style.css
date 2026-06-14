@@ -237,3 +237,29 @@ section {
     margin: 0 auto 30px auto;
     border-radius: 12px;
 }
+.main-hero {
+    background:
+        linear-gradient(rgba(13, 59, 102, 0.85), rgba(16, 42, 67, 0.85)),
+        url("hero-image.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.main-hero h1 {
+    color: white;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.main-hero p {
+    font-size: 21px;
+    margin-bottom: 30px;
+}
