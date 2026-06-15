@@ -8,11 +8,13 @@ body {
 
 nav {
     background: #0d3b66;
-    padding: 14px 30px;
+    padding: 14px 40px;
     display: flex;
     align-items: center;
-    gap: 18px;
+    justify-content: space-between;
+    gap: 28px;
 }
+
 nav a {
     color: white;
     text-decoration: none;
@@ -213,7 +215,7 @@ section {
 .logo-link {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 .product-image {
     width: 100%;
