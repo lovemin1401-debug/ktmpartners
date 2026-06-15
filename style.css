@@ -11,8 +11,6 @@ nav {
     padding: 14px 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 28px;
 }
 
 nav a {
@@ -20,7 +18,7 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 nav a:hover {
@@ -215,8 +213,9 @@ section {
 .logo-link {
     display: flex;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 50px;
 }
+
 .product-image {
     width: 100%;
     max-width: 500px;
