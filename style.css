@@ -8,9 +8,10 @@ body {
 
 nav {
     background: #0d3b66;
-    padding: 14px 40px;
+    padding: 14px 30px;
     display: flex;
     align-items: center;
+    gap: 18px;
 }
 
 nav a {
@@ -205,7 +206,7 @@ section {
     flex: 1;
 }
 .nav-logo {
-    height: 60px;
+    height: 65px;
     width: auto;
     display: block;
 }
