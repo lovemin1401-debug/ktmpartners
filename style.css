@@ -262,11 +262,11 @@ section {
 .product-photo {
     width: auto;
     max-width: 100%;
-    max-height: 420px;
+    max-height: 600px;
+    height: auto;
+
     display: block;
     margin: 0 auto 40px auto;
-    object-fit: contain;
-    border-radius: 12px;
 }
 .main-hero p {
     font-size: 21px;
