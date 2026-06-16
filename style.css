@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-    background: #154a78;
+    background: #0F3D61;
     padding: 14px 30px;
     display: flex;
     align-items: center;
@@ -27,11 +27,7 @@ nav a:hover {
 }
 
 header {
-    background: linear-gradient(
-        135deg,
-        #154a78,
-        #103a5f
-    );
+    background: linear-gradient(135deg, #0F3D61, #0B2F4B);
     color: white;
     text-align: center;
     padding: 80px 20px;
@@ -60,7 +56,7 @@ section {
 }
 
 h1, h2 {
-    color: #154a78;
+    color: #0F3D61;
 }
 
 h1 {
@@ -86,7 +82,7 @@ h2 {
     display: inline-block;
     margin-top: 14px;
     padding: 12px 22px;
-   background: #154a78;
+    background: #0F3D61;
     color: white;
     text-decoration: none;
     border-radius: 6px;
