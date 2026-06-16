@@ -8,10 +8,10 @@ body {
 
 nav {
     background: #0F3D61;
-    padding: 14px 30px;
+    padding: 14px 40px;
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 28px;
 }
 
 nav a {
@@ -214,7 +214,7 @@ section {
 .logo-link {
     display: flex;
     align-items: center;
-    margin-right: 50px;
+    margin-right: auto;
 }
 
 .product-image {
