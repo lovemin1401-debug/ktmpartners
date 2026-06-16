@@ -19,7 +19,7 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 nav a:hover {
@@ -206,7 +206,7 @@ section {
     flex: 1;
 }
 .nav-logo {
-    height: 65px;
+    height: 55px;
     width: auto;
     display: block;
 }
