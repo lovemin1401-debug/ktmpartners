@@ -295,3 +295,23 @@ section {
 .sub-nav a:hover {
     background: #e1e7ef;
 }
+.form-input,
+.form-textarea {
+    width: 100%;
+    max-width: 760px;
+    padding: 12px;
+    border: 1px solid #ccd6dd;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-textarea {
+    min-height: 180px;
+    resize: vertical;
+}
+
+form label {
+    font-weight: 600;
+    color: #0F3D61;
+}
