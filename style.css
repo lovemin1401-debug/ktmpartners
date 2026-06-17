@@ -30,17 +30,17 @@ header {
     background: linear-gradient(135deg, #0F3D61, #0B2F4B);
     color: white;
     text-align: center;
-    padding: 80px 20px;
+    padding: 45px 20px;
 }
 
 header h1 {
-    font-size: 42px;
+    font-size: 36px;
     margin-bottom: 10px;
     color: white;
 }
 
 header p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
