@@ -61,29 +61,30 @@
 <div class="category">
 <h2>온라인 문의</h2>
 
-<form action="mailto:입력예정" method="post" enctype="text/plain">
+<form action="https://formspree.io/f/mvzjkwdb" method="POST">
 
 <p>
 <label>문의 분야</label><br>
-<input type="checkbox" name="문의분야" value="장비 구매"> 장비 구매
-<input type="checkbox" name="문의분야" value="장비 대여"> 장비 대여
-<input type="checkbox" name="문의분야" value="측정 서비스"> 측정 서비스
-<input type="checkbox" name="문의분야" value="기술 상담"> 기술 상담
+<input type="checkbox" name="category" value="장비 구매"> 장비 구매
+<input type="checkbox" name="category" value="장비 대여"> 장비 대여
+<input type="checkbox" name="category" value="측정 서비스"> 측정 서비스
+<input type="checkbox" name="category" value="기술 상담"> 기술 상담
+<input type="checkbox" name="category" value="소프트웨어"> 소프트웨어
 </p>
 
 <p>
 <label>이메일</label><br>
-<input type="email" name="email" class="form-input">
+<input type="email" name="email" class="form-input" required>
 </p>
 
 <p>
 <label>제목</label><br>
-<input type="text" name="title" class="form-input">
+<input type="text" name="title" class="form-input" required>
 </p>
 
 <p>
 <label>내용</label><br>
-<textarea name="message" class="form-textarea"></textarea>
+<textarea name="message" class="form-textarea" required></textarea>
 </p>
 
 <button type="submit" class="button">문의하기</button>
