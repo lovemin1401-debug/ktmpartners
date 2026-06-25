@@ -433,3 +433,9 @@ form label {
         grid-template-columns: 1fr;
     }
 }
+.cta-section {
+    text-align: center;
+    background: #f5f7fa;
+    border-radius: 14px;
+    margin-top: 20px;
+}
