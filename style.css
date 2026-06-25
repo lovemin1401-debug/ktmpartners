@@ -439,3 +439,16 @@ form label {
     border-radius: 14px;
     margin-top: 20px;
 }
+.map-box{
+
+margin:40px 0;
+
+border-radius:16px;
+
+overflow:hidden;
+
+box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+border:1px solid #e5e5e5;
+
+}
