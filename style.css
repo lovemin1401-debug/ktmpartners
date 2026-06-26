@@ -491,3 +491,39 @@ border:1px solid #e5e5e5;
 .company-hero p{
     color:white;
 }
+.cases-hero,
+.library-hero,
+.contact-hero {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cases-hero h1,
+.library-hero h1,
+.contact-hero h1,
+.cases-hero p,
+.library-hero p,
+.contact-hero p {
+    color: white;
+}
+
+.cases-hero{
+    background:
+        linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
+        url("cases-banner.jpg");
+}
+
+.library-hero{
+    background:
+        linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
+        url("library-banner.jpg");
+}
+
+.contact-hero{
+    background:
+        linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
+        url("contact-banner.jpg");
+}
