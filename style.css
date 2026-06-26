@@ -453,17 +453,12 @@ border:1px solid #e5e5e5;
 
 }
 .hero-banner {
-    background-size: cover;
-    background-position: center;
     color: white;
     text-align: center;
     padding: 70px 20px;
 }
 
-.hero-banner h1 {
-    color: white;
-}
-
+.hero-banner h1,
 .hero-banner p {
     color: white;
 }
@@ -472,28 +467,38 @@ border:1px solid #e5e5e5;
     background:
         linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
         url("product-banner.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .company-hero {
     background:
         linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
         url("company-banner.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .cases-hero {
     background:
         linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
         url("cases-banner.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .library-hero {
     background:
         linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
         url("library-banner.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .contact-hero {
     background:
         linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
         url("contact-banner.jpg");
+    background-size: cover;
+    background-position: center;
 }
