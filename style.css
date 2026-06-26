@@ -452,10 +452,7 @@ box-shadow:0 5px 18px rgba(0,0,0,.08);
 border:1px solid #e5e5e5;
 
 }
-.product-hero {
-    background:
-        linear-gradient(rgba(13, 59, 102, 0.72), rgba(16, 42, 67, 0.72)),
-        url("product-banner.jpg");
+.hero-banner {
     background-size: cover;
     background-position: center;
     color: white;
@@ -463,66 +460,39 @@ border:1px solid #e5e5e5;
     padding: 70px 20px;
 }
 
-.product-hero h1 {
+.hero-banner h1 {
     color: white;
 }
 
-.product-hero p {
+.hero-banner p {
     color: white;
 }
-.company-hero{
+
+.product-hero {
+    background:
+        linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
+        url("product-banner.jpg");
+}
+
+.company-hero {
     background:
         linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
         url("company-banner.jpg");
-
-    background-size:cover;
-    background-position:center;
-
-    color:white;
-    text-align:center;
-
-    padding:70px 20px;
 }
 
-.company-hero h1{
-    color:white;
-}
-
-.company-hero p{
-    color:white;
-}
-.cases-hero,
-.library-hero,
-.contact-hero {
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.cases-hero h1,
-.library-hero h1,
-.contact-hero h1,
-.cases-hero p,
-.library-hero p,
-.contact-hero p {
-    color: white;
-}
-
-.cases-hero{
+.cases-hero {
     background:
         linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
         url("cases-banner.jpg");
 }
 
-.library-hero{
+.library-hero {
     background:
         linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
         url("library-banner.jpg");
 }
 
-.contact-hero{
+.contact-hero {
     background:
         linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
         url("contact-banner.jpg");
