@@ -460,7 +460,7 @@ border:1px solid #e5e5e5;
     background-position: center;
     color: white;
     text-align: center;
-    padding: 60px 20px;
+    padding: 70px 20px;
 }
 
 .product-hero h1 {
@@ -469,4 +469,25 @@ border:1px solid #e5e5e5;
 
 .product-hero p {
     color: white;
+}
+.company-hero{
+    background:
+        linear-gradient(rgba(13,59,102,.72), rgba(16,42,67,.72)),
+        url("company-banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+    text-align:center;
+
+    padding:70px 20px;
+}
+
+.company-hero h1{
+    color:white;
+}
+
+.company-hero p{
+    color:white;
 }
