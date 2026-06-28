@@ -227,4 +227,16 @@ FARO, Creaform, PolyWorks 등 글로벌 기술을 고객 환경에 맞게 연결
 <p class="copyright">© 2026 KTM Partners. All Rights Reserved.</p>
 </footer>
 
-</footer>
+<script>
+function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("active");
+}
+
+document.querySelectorAll(".dropdown-btn").forEach(function(button) {
+    button.addEventListener("click", function() {
+        this.parentElement.classList.toggle("open");
+    });
+});
+</script>
+</body>
+</html>
