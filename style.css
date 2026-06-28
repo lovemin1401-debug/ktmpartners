@@ -502,3 +502,9 @@ border:1px solid #e5e5e5;
     background-size: cover;
     background-position: center;
 }
+.section-intro {
+    max-width: 760px;
+    margin: 0 0 32px 0;
+    font-size: 17px;
+    color: #4b5563;
+}
