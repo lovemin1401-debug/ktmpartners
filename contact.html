@@ -62,47 +62,142 @@
 <h2>온라인 문의</h2>
 
 <form action="https://formspree.io/f/mvzjkwdb" method="POST">
-
+<p class="contact-guide">
+프로젝트의 목적, 적용 분야 또는 현재 검토 중인 내용을 함께 작성해 주시면
+보다 정확한 상담을 도와드릴 수 있습니다.
+</p>
 <p>
-<label>문의 분야</label><br>
-<input type="checkbox" name="category" value="장비 구매"> 장비 구매
-<input type="checkbox" name="category" value="장비 대여"> 장비 대여
-<input type="checkbox" name="category" value="측정 서비스"> 측정 서비스
-<input type="checkbox" name="category" value="기술 상담"> 기술 상담
-<input type="checkbox" name="category" value="소프트웨어"> 소프트웨어
+<label>문의 유형 (Inquiry Type) *</label><br>
+
+<select name="inquiry" class="form-input" required>
+
+<option value="">선택해 주세요.</option>
+
+<option>제품 문의 (Product Inquiry)</option>
+
+<option>견적 요청 (Quotation Request)</option>
+
+<option>기술 상담 (Technical Consultation)</option>
+
+<option>측정 서비스 (Measurement Service)</option>
+
+<option>데모 요청 (Demo Request)</option>
+
+<option>기타 (Others)</option>
+
+</select>
 </p>
 
 <p>
-<label>회사명</label><br>
-<input type="text" name="company" class="form-input" placeholder="예) KTM Partners">
+<label>프로젝트 분야 (Project Industry)</label><br>
+
+<select name="industry" class="form-input">
+
+<option value="">선택해 주세요.</option>
+
+<option>건설 및 플랜트 (Construction & Plant)</option>
+
+<option>제조 및 품질관리 (Manufacturing & Quality Control)</option>
+
+<option>역설계 및 제품개발 (Reverse Engineering & Product Development)</option>
+
+<option>기타 (Others)</option>
+
+</select>
+
+</p>
+<p>
+<label>관심 솔루션 (Interested Solution)</label><br>
+
+<select name="solution" class="form-input">
+
+<option value="">선택해 주세요.</option>
+
+<option>Digital Reality</option>
+
+<option>3D Metrology</option>
+
+<option>Software</option>
+
+<option>측정 서비스 (Measurement Service)</option>
+
+<option>아직 잘 모르겠습니다. (Not Sure Yet)</option>
+
+</select>
+
+</p>
+<p>
+<label>회사명 (Company)</label><br>
+
+<input
+type="text"
+name="company"
+class="form-input"
+placeholder="회사명을 입력해 주세요.">
+
 </p>
 
 <p>
-<label>담당자명</label><br>
-<input type="text" name="name" class="form-input" placeholder="예) 홍길동">
+<label>담당자명 (Contact Name) *</label><br>
+
+<input
+type="text"
+name="name"
+class="form-input"
+placeholder="담당자명을 입력해 주세요."
+required>
+
 </p>
 
 <p>
-<label>답변받으실 이메일 주소 *</label><br>
-<input type="email" name="email" class="form-input" placeholder="example@email.com" required>
+<label>이메일 (Email) *</label><br>
+
+<input
+type="email"
+name="email"
+class="form-input"
+placeholder="example@email.com"
+required>
+
 </p>
 
 <p>
-<label>연락처</label><br>
-<input type="tel" name="phone" class="form-input" placeholder="예) 010-0000-0000">
+<label>연락처 (Phone)</label><br>
+
+<input
+type="tel"
+name="phone"
+class="form-input"
+placeholder="+82 10-0000-0000">
+
 </p>
 
 <p>
-<label>문의 제목 *</label><br>
-<input type="text" name="title" class="form-input" required>
+<label>문의 제목 (Subject) *</label><br>
+
+<input
+type="text"
+name="title"
+class="form-input"
+placeholder="문의 제목을 입력해 주세요."
+required>
+
 </p>
 
 <p>
-<label>문의 내용 *</label><br>
-<textarea name="message" class="form-textarea" placeholder="문의하실 내용을 입력해 주세요." required></textarea>
+<label>문의 내용 (Message) *</label><br>
+
+<textarea
+name="message"
+class="form-textarea"
+placeholder="문의하실 내용을 입력해 주세요."
+required></textarea>
+
 </p>
 
-<button type="submit" class="button">문의하기</button>
+<button type="submit" class="button">
+상담 요청하기
+</button>
 
 </form>
 </div>
