@@ -314,43 +314,48 @@ form label {
     font-weight: 600;
     color: #0F3D61;
 }
-.solution-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+.solution-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:24px;
+}
+.solution-card{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    transition:.3s;
+
+    display:flex;
+    flex-direction:column;
 }
 
-.solution-card {
-    background: #f5f7fa;
-    border: 1px solid #e1e7ef;
-    border-radius: 14px;
-    padding: 24px;
+.solution-card:hover{
+    transform:translateY(-6px);
 
-    display: flex;
-    flex-direction: column;
-
-    min-height: 500px;
-}
-.solution-card img {
-    width: 100%;
-    height: 260px;
-
-    object-fit: contain;
-
-    background: #f5f7fa;
-
-    display: block;
-    margin: 0 auto 20px auto;
-}
-.solution-card .button {
-    margin-top: auto;
-}
-.solution-card h3 {
-    color: #0F3D61;
-    font-size: 24px;
-    margin-bottom: 12px;
+    box-shadow:0 10px 24px rgba(0,0,0,.12);
 }
 
+.solution-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.solution-card h3{
+    margin:20px 20px 10px;
+}
+
+.solution-card p{
+    margin:0 20px 20px;
+    flex:1;
+}
+
+.solution-card .button{
+    margin:0 20px 20px;
+    align-self:flex-start;
+}
 @media (max-width: 768px) {
     .solution-grid {
         grid-template-columns: 1fr;
@@ -383,10 +388,10 @@ form label {
         grid-template-columns: 1fr;
     }
 }
-.application-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+.application-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:24px;
 }
 
 .application-card {
