@@ -348,14 +348,13 @@ form label {
 }
 
 .solution-card p{
+    margin:0 20px 16px;
+}
+.solution-card .text-link{
     margin:0 20px 20px;
-    flex:1;
+    display:inline-block;
 }
 
-.solution-card .button{
-    margin:0 20px 20px;
-    align-self:flex-start;
-}
 @media (max-width: 768px) {
     .solution-grid {
         grid-template-columns: 1fr;
