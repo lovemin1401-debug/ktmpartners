@@ -9,16 +9,20 @@
 
 <body>
 
-<nav>
+<nav class="navbar">
 
 <a href="index.html" class="logo-link">
 <img src="logo-id.png" alt="KTM Partners Logo" class="nav-logo">
 </a>
 
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+<div class="nav-menu" id="navMenu">
+
 <a href="index.html">HOME</a>
 
 <div class="dropdown">
-<a href="#">회사소개</a>
+<button class="dropdown-btn">회사소개</button>
 <div class="dropdown-content">
 <a href="greeting.html">인사말</a>
 <a href="about.html">회사소개</a>
@@ -27,7 +31,7 @@
 </div>
 
 <div class="dropdown">
-<a href="#">솔루션</a>
+<button class="dropdown-btn">솔루션</button>
 <div class="dropdown-content">
 <a href="focus-laser-scanner.html">디지털 리얼리티</a>
 <a href="quantum-x.html">3D 계측</a>
@@ -39,6 +43,7 @@
 <a href="library.html">자료실</a>
 <a href="contact.html">문의하기</a>
 
+</div>
 </nav>
 
 <header class="hero-banner product-hero">
@@ -125,6 +130,16 @@ Focus Laser Scanning Solution은 건설, 플랜트, 제조 및 인프라 현장�
 <p>Digital Reality & 3D Metrology Solutions</p>
 <p>TEL : 051-710-8515  |  E-mail : info@ktmpartners.co.kr</p>
 </footer>
+<script>
+function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("active");
+}
 
+document.querySelectorAll(".dropdown-btn").forEach(function(button) {
+    button.addEventListener("click", function() {
+        this.parentElement.classList.toggle("open");
+    });
+});
+</script>
 </body>
 </html>
