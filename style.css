@@ -325,9 +325,9 @@ form label {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
-    margin-top: 30px;
+    max-width: 760px;
+    margin: 30px auto 0;
 }
-
 @media (max-width: 768px) {
     .solution-grid {
         grid-template-columns: 1fr;
@@ -416,12 +416,13 @@ form label {
         grid-template-columns: 1fr;
     }
 }
-.application-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:24px;
+.application-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 760px;
+    margin: 30px auto 0;
 }
-
 .application-card {
     background: #ffffff;
     border: 1px solid #e1e7ef;
@@ -454,7 +455,13 @@ form label {
 .application-card p {
     margin-bottom: 16px;
 }
-
+@media (max-width: 768px) {
+    .solution-grid,
+    .application-grid {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+}
 .text-link {
     color: #0F3D61;
     font-weight: 700;
