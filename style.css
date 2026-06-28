@@ -555,23 +555,11 @@ border:1px solid #e5e5e5;
     padding: 70px 24px 50px;
 }
 
-.intro-label{
-    display:inline-block;
-    margin-bottom:18px;
-
-    font-size:15px;
-    font-weight:700;
-    letter-spacing:2px;
-    text-transform:uppercase;
-
-    color:#0F3D61;
-
-    padding:8px 18px;
-
-    border:2px solid #0F3D61;
-    border-radius:999px;
-
-    background:#f5f9fc;
+.intro-logo {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 24px auto;
 }
 .intro-section h2 {
     margin-top: 0;
