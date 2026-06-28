@@ -884,3 +884,14 @@ border:1px solid #e5e5e5;
         box-sizing: border-box;
     }
 }
+.section-label{
+
+    letter-spacing:4px;
+    font-size:14px;
+    font-weight:700;
+    color:#0F3D61;
+
+    text-transform:uppercase;
+
+    margin-bottom:18px;
+}
