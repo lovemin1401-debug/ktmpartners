@@ -294,8 +294,9 @@ section {
     color: #0F3D61;
     text-decoration: none;
     font-weight: 600;
-    padding: 8px 14px;
-    border-radius: 6px;
+    font-size:15px;
+    padding: 12px 18px;
+    border-radius: 8px;
 }
 
 .sub-nav a:hover {
@@ -746,8 +747,8 @@ border:1px solid #e5e5e5;
 
     .sub-nav a {
         white-space: nowrap;
-        font-size: 14px;
-        padding: 8px 12px;
+        font-size: 15px;
+        padding: 12px 18px;
     }
 
     .form-input,
