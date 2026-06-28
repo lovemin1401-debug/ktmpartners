@@ -73,18 +73,33 @@
 </p>
 
 <p>
-<label>이메일</label><br>
-<input type="email" name="email" class="form-input"  placeholder="답변받으실 이메일을 입력해주세요." required>
+<label>회사명</label><br>
+<input type="text" name="company" class="form-input" placeholder="예) KTM Partners">
 </p>
 
 <p>
-<label>제목</label><br>
+<label>담당자명</label><br>
+<input type="text" name="name" class="form-input" placeholder="예) 홍길동">
+</p>
+
+<p>
+<label>답변받으실 이메일 주소 *</label><br>
+<input type="email" name="email" class="form-input" placeholder="example@email.com" required>
+</p>
+
+<p>
+<label>연락처</label><br>
+<input type="tel" name="phone" class="form-input" placeholder="예) 010-0000-0000">
+</p>
+
+<p>
+<label>문의 제목 *</label><br>
 <input type="text" name="title" class="form-input" required>
 </p>
 
 <p>
-<label>내용</label><br>
-<textarea name="message" class="form-textarea" required></textarea>
+<label>문의 내용 *</label><br>
+<textarea name="message" class="form-textarea" placeholder="문의하실 내용을 입력해 주세요." required></textarea>
 </p>
 
 <button type="submit" class="button">문의하기</button>
