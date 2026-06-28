@@ -850,3 +850,37 @@ border:1px solid #e5e5e5;
         font-weight: 500;
     }
 }
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .sub-nav {
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: auto;
+        white-space: nowrap;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 8px;
+        padding: 10px 12px;
+    }
+
+    .sub-nav a {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+
+    section,
+    header,
+    .hero-banner,
+    .product-hero,
+    .company-hero,
+    .cases-hero,
+    .library-hero,
+    .contact-hero {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
