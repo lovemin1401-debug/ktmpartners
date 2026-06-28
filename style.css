@@ -542,13 +542,24 @@ border:1px solid #e5e5e5;
     padding: 70px 24px 50px;
 }
 
-.intro-label {
-    color: #0F3D61;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 12px;
-}
+.intro-label{
+    display:inline-block;
+    margin-bottom:18px;
 
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    color:#0F3D61;
+
+    padding:8px 18px;
+
+    border:2px solid #0F3D61;
+    border-radius:999px;
+
+    background:#f5f9fc;
+}
 .intro-section h2 {
     margin-top: 0;
     line-height: 1.4;
