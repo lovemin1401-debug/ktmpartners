@@ -349,10 +349,23 @@ form label {
 
 .solution-card p{
     margin:0 20px 16px;
+    color:#555;
+    line-height:1.7;
+
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow:hidden;
+
+    min-height:3.4em;
 }
 .solution-card .text-link{
-    margin:0 20px 20px;
     display:inline-block;
+    margin:18px 20px 20px;
+    padding-top:16px;
+    border-top:1px solid #eeeeee;
+    width:calc(100% - 40px);
+    font-weight:600;
 }
 
 @media (max-width: 768px) {
