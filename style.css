@@ -101,17 +101,31 @@ footer {
     margin-top:80px;
 }
 
+.footer-tagline{
+    margin:14px 0 24px;
+    font-size:15px;
+    color:rgba(255,255,255,.82);
+    letter-spacing:.5px;
+    font-weight:500;
+}
+
 footer p{
     margin:10px 0;
     line-height:1.8;
 }
 
-footer .copyright{
-    margin-top:30px;
-    font-size:14px;
-    opacity:.7;
+footer strong{
+    font-size:22px;
+    letter-spacing:.5px;
 }
 
+footer .copyright{
+    margin-top:30px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,.15);
+    font-size:14px;
+    color:rgba(255,255,255,.6);
+}
 @media (max-width: 768px) {
     nav a {
         display: block;
