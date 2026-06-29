@@ -942,3 +942,18 @@ border:1px solid #e5e5e5;
 
     margin-bottom:18px;
 }
+.error-page{
+    min-height: 60vh;
+    text-align: center;
+    padding: 100px 24px;
+}
+
+.error-page h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: #0F3D61;
+}
+
+.error-page h2{
+    margin-top: 0;
+}
