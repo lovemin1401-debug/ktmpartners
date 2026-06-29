@@ -29,7 +29,8 @@ nav a,
     font-family:inherit;
     padding:0;
 }
-nav a:hover {
+nav a:hover,
+.dropdown-btn:hover {
     color: #a8d5ff;
 }
 
