@@ -858,9 +858,12 @@ border:1px solid #e5e5e5;
         border: none;
         width: 100%;
         cursor: pointer;
+        font: inherit;
         font-weight: 700;
     }
-
+.dropdown-btn:hover {
+    color: #a8d5ff;
+}
     .dropdown {
         width: 100%;
     }
