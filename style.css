@@ -960,3 +960,27 @@ border:1px solid #e5e5e5;
 .error-page h2{
     margin-top: 0;
 }
+.category li,
+.info-box li {
+    margin-bottom: 10px;
+    line-height: 1.7;
+    padding-left: 2px;
+}
+
+.category ul,
+.info-box ul {
+    padding-left: 22px;
+}
+@media (max-width: 768px) {
+    .category ul,
+    .info-box ul {
+        padding-left: 20px;
+    }
+
+    .category li,
+    .info-box li {
+        line-height: 1.75;
+        margin-bottom: 12px;
+        word-break: keep-all;
+    }
+}
