@@ -984,3 +984,44 @@ border:1px solid #e5e5e5;
         word-break: keep-all;
     }
 }
+.download-list{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    margin-top:24px;
+}
+
+.download-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:18px;
+
+    padding:18px 20px;
+    border:1px solid #e1e7ef;
+    border-radius:12px;
+    background:#ffffff;
+
+    color:#0F3D61;
+    text-decoration:none;
+    font-weight:600;
+
+    transition:.25s;
+}
+
+.download-item:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.download-item strong{
+    white-space:nowrap;
+    font-size:14px;
+}
+
+@media (max-width:768px){
+    .download-item{
+        align-items:flex-start;
+        flex-direction:column;
+    }
+}
