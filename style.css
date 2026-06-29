@@ -375,10 +375,11 @@ form label {
 }
 .solution-card{
     background:#fff;
-    border-radius:12px;
+    border:1px solid #e1e7ef;
+    border-radius:14px;
     overflow:hidden;
 
-    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    box-shadow:0 4px 14px rgba(0,0,0,.06);
     transition:.3s;
 
     display:flex;
@@ -387,7 +388,6 @@ form label {
 
 .solution-card:hover{
     transform:translateY(-6px);
-
     box-shadow:0 10px 24px rgba(0,0,0,.12);
 }
 
@@ -396,35 +396,26 @@ form label {
     height:220px;
     object-fit:cover;
     display:block;
-
-    border-top-left-radius:12px;
-    border-top-right-radius:12px;
 }
 .solution-card h3{
-    margin:20px 20px 10px;
+    margin:24px 24px 12px;
+    color:#0F3D61;
 }
 
 .solution-card p{
-    margin:0 20px 16px;
-    color:#555;
+    margin:0 24px 16px;
     line-height:1.7;
-
-    display:-webkit-box;
-    -webkit-box-orient:vertical;
-    -webkit-line-clamp:2;
-    overflow:hidden;
-
-    min-height:3.4em;
+    color:#555;
 }
+
 .solution-card .text-link{
     display:inline-block;
-    margin:18px 20px 20px;
+    margin:18px 24px 24px;
     padding-top:16px;
     border-top:1px solid #eeeeee;
-    width:calc(100% - 40px);
+    width:calc(100% - 48px);
     font-weight:600;
 }
-
 @media (max-width: 768px) {
     .solution-grid {
         grid-template-columns: 1fr;
