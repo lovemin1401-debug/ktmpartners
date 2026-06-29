@@ -79,11 +79,12 @@ h2 {
 
 .category,
 .info-box {
-    background: #f5f7fa;
+    background: #ffffff;
     border: 1px solid #e1e7ef;
-    padding: 28px;
-    margin-bottom: 24px;
     border-radius: 14px;
+    padding: 32px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
 }
 
 .button {
@@ -293,12 +294,23 @@ section {
 }
 
 .product-photo {
-    max-width: 600px;
     width: 100%;
-    height: auto;
+    max-height: 360px;
     object-fit: contain;
     display: block;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 32px;
+}
+@media (max-width: 768px) {
+    .category,
+    .info-box {
+        padding: 24px;
+        margin-bottom: 20px;
+    }
+
+    .product-photo {
+        max-height: 260px;
+        margin-bottom: 24px;
+    }
 }
 .main-hero p {
     font-size: 21px;
