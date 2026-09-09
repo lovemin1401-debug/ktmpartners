@@ -3091,9 +3091,11 @@ color:#52606d;
     width: 100%;
     height: auto;
 }
-.section-button-wrap {
+/* Scan-to-CAD 공식 링크 버튼 */
+.scan-cad-button-wrap {
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 42px;
-    margin-bottom: 30px;
+    margin-top: 48px;
+    margin-bottom: 60px;
 }
