@@ -3091,3 +3091,9 @@ color:#52606d;
     width: 100%;
     height: auto;
 }
+.section-button-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+    margin-bottom: 30px;
+}
