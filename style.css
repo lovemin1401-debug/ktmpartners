@@ -3103,3 +3103,30 @@ color:#52606d;
 .design-benefits-title {
     margin-top: 80px;
 }
+/* Quantum X - Hot-Swappable LLP 이미지 */
+.quantum-llp-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+}
+
+.quantum-llp-images img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    background: #fff;
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+    .quantum-llp-images {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .quantum-llp-images img {
+        height: auto;
+    }
+}
