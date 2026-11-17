@@ -3278,3 +3278,92 @@ color:#52606d;
     padding: 24px;
   }
 }
+/* 적용사례 자료 신청 버튼 */
+button.case-pdf-button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* 신청창이 열려 있을 때 배경 스크롤 방지 */
+body.case-request-open {
+  overflow: hidden;
+}
+
+/* 적용사례 자료 신청창 */
+.case-request-dialog {
+  width: min(900px, calc(100% - 32px));
+  max-height: 90vh;
+  max-height: 90dvh;
+  box-sizing: border-box;
+  padding: 24px;
+  overflow-y: auto;
+  border: 0;
+  border-radius: 16px;
+  background: #fff;
+  color: #173b60;
+}
+
+.case-request-dialog::backdrop {
+  background: rgba(15, 23, 42, 0.65);
+}
+
+.case-request-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.case-request-header h2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.case-request-close {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 8px;
+  background: #edf2f7;
+  color: #173b60;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.case-request-guide,
+.case-request-fallback {
+  color: #475569;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.case-request-dialog iframe {
+  display: block;
+  width: 100%;
+  height: 65vh;
+  height: 65dvh;
+  min-height: 320px;
+  border: 0;
+}
+
+.case-request-fallback a {
+  color: #173b60;
+  text-decoration: underline;
+}
+
+.case-request-close:focus-visible {
+  outline: 3px solid #2684ff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .case-request-dialog {
+    padding: 16px;
+  }
+
+  .case-request-header h2 {
+    font-size: 20px;
+  }
+}
