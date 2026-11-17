@@ -587,7 +587,45 @@
     </section>
 
   </main>
+<!-- 적용사례 자료 신청창 -->
+<dialog
+  id="case-request-dialog"
+  class="case-request-dialog"
+  aria-labelledby="case-request-title">
 
+  <div class="case-request-header">
+    <h2 id="case-request-title">적용사례·기술자료 신청</h2>
+
+    <button
+      type="button"
+      class="case-request-close"
+      onclick="closeCaseRequest()"
+      aria-label="자료 신청창 닫기">
+      ×
+    </button>
+  </div>
+
+  <p class="case-request-guide">
+    아래 신청폼을 작성해 주세요.
+    제출 완료 화면에 안내된 링크에서 자료를 다운로드할 수 있습니다.
+  </p>
+
+  <iframe
+    id="case-request-frame"
+    title="KTM Partners 기술자료 다운로드 신청"
+    data-src="https://forms.cloud.microsoft/r/0BJaMtyVyf?embed=true">
+  </iframe>
+
+  <p class="case-request-fallback">
+    신청폼이 보이지 않으면
+    <a
+      href="https://forms.cloud.microsoft/r/0BJaMtyVyf"
+      target="_blank"
+      rel="noopener noreferrer">
+      새 창에서 신청폼 열기
+    </a>
+  </p>
+</dialog>
 
   <!-- 공통 푸터 -->
   <div id="footer"></div>
@@ -601,7 +639,39 @@
   </button>
 
   <script src="script.js"></script>
+<script>
+  let caseRequestTrigger = null;
 
+  function openCaseRequest(button) {
+    const dialog = document.getElementById("case-request-dialog");
+    const frame = document.getElementById("case-request-frame");
+
+    caseRequestTrigger = button;
+
+    // 처음 열 때만 설문을 불러옵니다.
+    if (!frame.hasAttribute("src")) {
+      frame.src = frame.dataset.src;
+    }
+
+    dialog.showModal();
+    document.body.classList.add("case-request-open");
+  }
+
+  function closeCaseRequest() {
+    document.getElementById("case-request-dialog").close();
+  }
+
+  document
+    .getElementById("case-request-dialog")
+    .addEventListener("close", function () {
+      document.body.classList.remove("case-request-open");
+
+      if (caseRequestTrigger) {
+        caseRequestTrigger.focus();
+      }
+    });
+</script>
+  
 </body>
 
 </html>
