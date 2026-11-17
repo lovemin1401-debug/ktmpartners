@@ -3153,3 +3153,128 @@ color:#52606d;
         object-fit: contain;
     }
 }
+/* 적용사례: PDF 기술자료 */
+.case-resources {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 72px 24px;
+}
+
+.case-resource-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.case-resource-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+}
+
+.case-resource-category {
+  margin: 0 0 12px;
+  color: #365d84;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.case-resource-card h3 {
+  margin: 0 0 16px;
+  color: #142b43;
+  font-size: 21px;
+  line-height: 1.5;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+.case-resource-summary {
+  margin: 0 0 20px;
+  color: #475569;
+  font-size: 15px;
+  line-height: 1.85;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+.case-resource-tags {
+  margin: auto 0 24px;
+  color: #526b85;
+  font-size: 13px;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+}
+
+.case-resource-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 16px;
+}
+
+.case-pdf-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 11px 18px;
+  background: #173b60;
+  border: 1px solid #173b60;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.case-pdf-button:hover {
+  background: #24527e;
+  border-color: #24527e;
+  color: #fff;
+}
+
+.case-pdf-download {
+  color: #173b60;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.case-pdf-button:focus-visible,
+.case-pdf-download:focus-visible {
+  outline: 3px solid #2684ff;
+  outline-offset: 4px;
+}
+
+.case-resource-source {
+  margin: 24px 0 0;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+@media (max-width: 1024px) {
+  .case-resource-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .case-resources {
+    padding: 48px 20px;
+  }
+
+  .case-resource-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .case-resource-card {
+    padding: 24px;
+  }
+}
